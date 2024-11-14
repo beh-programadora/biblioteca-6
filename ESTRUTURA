@@ -1,0 +1,11 @@
+biblioteca-sistema/
+│
+├── src/                # Código-fonte do projeto
+│   └── biblioteca_app.py # Código Python com a implementação do sistema
+│
+├── dataset/            # Pasta para dados, como o banco SQLite (biblioteca.db)
+│   └── biblioteca.db    # Banco de dados SQLite gerado pelo sistema
+│
+├── requirements.txt     # Arquivo com as dependências do projeto
+├── .gitignore           # Arquivo para ignorar arquivos desnecessários no Git
+├── README.md            # Descrição do projeto e instruções
