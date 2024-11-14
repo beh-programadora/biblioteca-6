@@ -1,0 +1,4 @@
+tkinter
+
+Observação: O Tkinter é uma biblioteca padrão do Python, portanto não há necessidade de instalá-lo separadamente. No entanto, 
+você pode adicionar outras dependências conforme o projeto evolui.
