@@ -1,0 +1,46 @@
+# Sistema de Biblioteca
+
+Este projeto é um sistema de gerenciamento de biblioteca utilizando Python, Tkinter para a interface gráfica e SQLite como banco de dados. O sistema permite adicionar autores, livros, registrar empréstimos e devoluções, e verificar livros não devolvidos.
+
+## Objetivos
+
+O objetivo do projeto é fornecer uma solução simples para o controle de empréstimos de livros, onde é possível:
+
+- Adicionar autores e livros à biblioteca
+- Registrar empréstimos de livros para usuários
+- Marcar livros como devolvidos
+- Exibir livros não devolvidos com informações sobre o usuário
+
+## Requisitos de Sistema
+
+- Python 3.x
+- Biblioteca Tkinter (para a interface gráfica)
+- SQLite (para o banco de dados)
+
+## Requisitos
+
+As bibliotecas necessárias para o projeto estão listadas no arquivo `requirements.txt`. Você pode instalá-las com o comando:
+
+```bash
+pip install -r requirements.txt
+
+Como Executar
+1. Clone o repositório:
+git clone https://github.com/seu-usuario/biblioteca-sistema.git
+
+2. Navegue até a pasta do projeto:
+cd biblioteca-sistema
+
+3. Instale as dependências:
+pip install -r requirements.txt
+
+4. Execute o script Python:
+python src/biblioteca_app.py
+
+Resultados Principais
+Ao executar o sistema, você será capaz de:
+
+Adicionar autores e livros
+Registrar e devolver empréstimos de livros
+Visualizar os livros não devolvidos no sistema
+
