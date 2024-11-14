@@ -1,0 +1,23 @@
+Tabela de Livros:
+
+id_livro: Identificador único para cada livro.
+titulo: Título do livro.
+autor: Autor do livro.
+categoria: Categoria do livro (ficção, não-ficção, ciência, etc.).
+ano_publicacao: Ano de publicação.
+disponibilidade: Se o livro está disponível ou emprestado.
+Tabela de Usuários:
+
+id_usuario: Identificador único para cada usuário.
+nome: Nome do usuário.
+email: E-mail do usuário.
+telefone: Número de telefone do usuário.
+endereco: Endereço do usuário.
+Tabela de Empréstimos:
+
+id_emprestimo: Identificador único para o empréstimo.
+id_usuario: Referência ao usuário que pegou o livro emprestado.
+id_livro: Referência ao livro emprestado.
+data_emprestimo: Data do empréstimo.
+data_devolucao: Data prevista para devolução.
+status: Status do empréstimo (ativo ou devolvido).
