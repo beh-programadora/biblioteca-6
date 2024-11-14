@@ -1,0 +1,29 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.sqlite
+*.db
+
+# Arquivos temporários do sistema
+*.swp
+*.swo
+*.bak
+*.log
+
+# Banco de dados SQLite
+biblioteca.db
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Pastas de ambiente virtual
+venv/
+.env/
+
+# Arquivos gerados por IDEs e editores
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
